@@ -26,18 +26,15 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
         4. To ACTUALLY load the extension pack, do the following in a terminal window (be sure to copy the whole line):
  ```
     username:~$ wget http://download.virtualbox.org/virtualbox/5.2.2/Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
- ```
+    ```
+    
+    Once the file is downloaded do this:
  
- 
- 
- 
- 
- 
- 5. Once downloaded do this:
-
         username:~$ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
         # NOTE this is the verion and build number as of November 2017.  The numbers will change over time.  
         #      Use the current numbers from the virtualbox.org download site.
+        
+        
 2. Download Raspberry Pi desktop from RaspberryPi.org
 3. Create Virtual Box with debian raspberry pi desktop
 4. Make sure you have additions installed 
