@@ -16,20 +16,16 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
 ## Steps
 1. Install Virtual Box on OSX Sierra.  Here is a good youtube video on downloading and installing Virtual Box for OSX (ignore the part where he starts installing Windows 10 as we will be installing a different operating system):  https://www.youtube.com/watch?v=rNV5JmxtKP4 
     1. Download VirualBox for OSX from here https://www.virtualbox.org/wiki/Downloads  (click on the "OSX Hosts" version)
-    2. At the same time you should install the "VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" which you can download from the same page.
-    3. This will download a .DMG file to your downloads folder.  Open/Mount the .DMG and double click on the virtualbox.mpkg icon.  Refer to this illustration:  http://sites.miis.edu/kb/files/2012/06/VB-02.png
+    2. At the same time you should download the "VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" which you can download from the same page. (Note: I assume that both VirtualBox and the Extension Pack have been downloaded to your iMac Downloads folder)
+    3. This will download two files to your downloads folder
+        1. a .DMG file which you will use to install VirtualBox
+        2. an Extension Pack file named something like "Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack"
+    4. Open/Mount the .DMG and double click on the virtualbox.mpkg icon.  Refer to this illustration:  
+    ![alt text](http://sites.miis.edu/kb/files/2012/06/VB-02.png "Virtual Box Installation")
     4. This will install VirtualBox in your Applications folder
-    5. **Watch Out #1**
-        1. The video and instructions imply that the VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" gets installed automatically when you install VBox.  It doesnt.  Heres how to check
-        2. In a terminal window run the following command `username:~$ sudo VBoxManage list extpack` and check the result
-        3. If the result is `Extension Packs: 0` then the extension pack has not been loaded!
-        4. To ACTUALLY load the extension pack, do the following in a terminal window (be sure to copy the whole line):
-          ```
-          username:~$ wget http://download.virtualbox.org/virtualbox/5.2.2/Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
-       ```     
-        5. Once the file is downloaded do this:
+    5. To install the extension pack (the youtube video implies it happens automatically but it doesnt!), Do the following in a Terminal Window:
         ```
-        username:~$ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
+        username:~$ sudo VBoxManage extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
         # NOTE this is the verion and build number as of November 2017.  The numbers will change over time.  
         #      Use the current numbers from the virtualbox.org download site.
         ```
