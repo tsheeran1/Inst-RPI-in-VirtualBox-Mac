@@ -19,6 +19,9 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
     2. At the same time you should install the "VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" which you can download from the same page.
     3. This will download a .DMG file to your downloads folder.  Open/Mount the .DMG and double click on the virtualbox.mpkg icon.  Refer to this illustration:  http://sites.miis.edu/kb/files/2012/06/VB-02.png
     4. This will install VirtualBox in your Applications folder
+    5. **Watch Out #1**
+        1. The video and instructions imply that the VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" gets installed automatically when you install VBox.  It doesnt.  Heres how to check
+        
 2. Download Raspberry Pi desktop from RaspberryPi.org
 3. Create Virtual Box with debian raspberry pi desktop
 4. Make sure you have additions installed 
