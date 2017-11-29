@@ -14,11 +14,12 @@ iMac 27 inch, Mid 2010
 Startup disk 250 GB SSD (>100GB available -- probably can get by with less than this, I'm only setting up a 30-40GB VM storage)
 
 ## Steps
-1. Install Virtual Box on OSX Sierra
+1. Install Virtual Box on OSX Sierra.  Here is a good youtube video on downloading and installing Virtual Box for OSX (ignore the part where he starts installing Windows 10 as we will be installing a different operating system):  https://www.youtube.com/watch?v=rNV5JmxtKP4 
     1. Download VirualBox for OSX from here https://www.virtualbox.org/wiki/Downloads  (click on the "OSX Hosts" version)
-    2. This will download a .DMG file to your downloads folder.  Open/Mount the .DMG and double click on the virtualbox.mpkg icon.  Refer to this illustration:  http://sites.miis.edu/kb/files/2012/06/VB-02.png
-2. Make sure you have extensions installed
-3. Download Raspberry Pi desktop from RaspberryPi.org
-4. Create Virtual Box with debian raspberry pi desktop
-5. Make sure you have additions installed 
-6. Confirm that cut/paste and drag/drop work between Vbox and OSX
+    2. At the same time you should install the "VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" which you can download from the same page.
+    3. This will download a .DMG file to your downloads folder.  Open/Mount the .DMG and double click on the virtualbox.mpkg icon.  Refer to this illustration:  http://sites.miis.edu/kb/files/2012/06/VB-02.png
+    4. This will install VirtualBox in your Applications folder
+2. Download Raspberry Pi desktop from RaspberryPi.org
+3. Create Virtual Box with debian raspberry pi desktop
+4. Make sure you have additions installed 
+5. Confirm that cut/paste and drag/drop work between Vbox and OSX
