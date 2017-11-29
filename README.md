@@ -21,11 +21,18 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
     4. This will install VirtualBox in your Applications folder
     5. **Watch Out #1**
         1. The video and instructions imply that the VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" gets installed automatically when you install VBox.  It doesnt.  Heres how to check
-        2. In a terminal window run the following command and check the result
- ```
-        username~$ sudo VBoxManage list extpacks 
-        Extension Packs: 0  #This result means the extension pack was not loaded!
-```        
+        2. In a terminal window run the following command `username:~$ sudo VBoxManage list extpack` and check the result
+        3. If the result is `Extension Packs: 0` then the extension pack has not been loaded!
+        4. To ACTUALLY load the extension pack, do the following in a terminal window:
+        ```
+        username:~$ wget http://download.virtualbox.org/virtualbox/5.2.2/Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
+        ```
+        
+        Once downloaded do this:
+        
+        ```
+        username:~$ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-4.3.12-93733.vbox-extpack
+        ```
 2. Download Raspberry Pi desktop from RaspberryPi.org
 3. Create Virtual Box with debian raspberry pi desktop
 4. Make sure you have additions installed 
