@@ -51,7 +51,8 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
         Usable:       true 
         Why unusable: 
         ```
-
+####  Congratulations. Don't you feel accomplished? (I sure as hell do!)
+In our next episodes I will cover:
         
 2. Download Raspberry Pi desktop from RaspberryPi.org
 3. Create Virtual Box with debian raspberry pi desktop
