@@ -8,10 +8,10 @@ There are two reasons for this
 I have found that while there is A SHIT TON of information about Raspberry PI and the RPI desktop, and Virtual Box and OpenHAB2 which are all interests of mine, they are not all clear and quite often conflict with each other.  Now recognize it has been a long time since I got into the details of stuff at this level so I'm not criticizing anyone who puts information out.  I'm just trying to organize in a way that makes sense for me.
 
 ## My Config
-iMac 27 inch, Mid 2010
-2.93 Ghz Intel Core I7
-16GB 1333 Mhz DDR3
-Startup disk 250 GB SSD (>100GB available -- probably can get by with less than this, I'm only setting up a 30-40GB VM storage)
+* iMac 27 inch, Mid 2010
+* 2.93 Ghz Intel Core I7
+* 16GB 1333 Mhz DDR3
+* Startup disk 250 GB SSD (>100GB available -- probably can get by with less than this, I'm only setting up a 30-40GB VM storage)
 
 ## Steps
 1. Install Virtual Box on OSX Sierra.  Here is a good youtube video on downloading and installing Virtual Box for OSX (ignore the part where he starts installing Windows 10 as we will be installing a different operating system):  https://www.youtube.com/watch?v=rNV5JmxtKP4 
