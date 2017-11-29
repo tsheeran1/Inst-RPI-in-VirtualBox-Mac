@@ -28,7 +28,7 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
         username:~$ wget http://download.virtualbox.org/virtualbox/5.2.2/Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
         ```
         
-        Once downloaded do this:
+        5. Once downloaded do this:
         
         ```
         username:~$ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-4.3.12-93733.vbox-extpack
