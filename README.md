@@ -29,9 +29,9 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
         ```
         
         5. Once downloaded do this:
-        
         ```
-        username:~$ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-4.3.12-93733.vbox-extpack
+        username:~$ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
+        # NOTE this is the verion and build number as of November 2017.  The numbers will change over time.  Use the current numbers from the virtualbox.org download site.
         ```
 2. Download Raspberry Pi desktop from RaspberryPi.org
 3. Create Virtual Box with debian raspberry pi desktop
