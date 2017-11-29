@@ -36,7 +36,7 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
         ```
     7. And you can check by doing:
         ```
-        username:~ TomsIMac$ sudo VBoxManage list extpacks
+        username:~$ sudo VBoxManage list extpacks
         ```
     8. And you should see the following result: 
          ```
