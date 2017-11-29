@@ -23,13 +23,35 @@ I have found that while there is A SHIT TON of information about Raspberry PI an
     4. Open/Mount the .DMG and double click on the virtualbox.mpkg icon.  Refer to this illustration:  
     ![alt text](http://sites.miis.edu/kb/files/2012/06/VB-02.png "Virtual Box Installation")
     4. This will install VirtualBox in your Applications folder
-    5. To install the extension pack (the youtube video implies it happens automatically but it doesnt!), Do the following in a Terminal Window:
+    5. To install the extension pack (the youtube video implies it happens automatically but it doesnt!), Do the following in a Terminal Window (I assume you have su priveleges and can supply the admin password when prompted):
         ```
         username:~$ sudo VBoxManage extpack install ~/Downloads/Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack
         # NOTE this is the verion and build number as of November 2017.  The numbers will change over time.  
         #      Use the current numbers from the virtualbox.org download site.
         ```
-        
+    6. Success will look something like this:
+        ```
+        0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+        Successfully installed "Oracle VM VirtualBox Extension Pack".
+        ```
+    7. And you can check by doing:
+        ```
+        tomsheeransimac:~ TomsIMac$ sudo VBoxManage list extpacks
+        ```
+    8. And you should see the following result: 
+         ```
+        Password:
+        Extension Packs: 1
+        Pack no. 0:   Oracle VM VirtualBox Extension Pack
+        Version:      5.2.2
+        Revision:     119230
+        Edition:      
+        Description:  USB 2.0 and USB 3.0 Host Controller, Host Webcam, VirtualBox RDP, PXE ROM, Disk Encryption, NVMe.
+        VRDE Module:  VBoxVRDP
+        Usable:       true 
+        Why unusable: 
+        ```
+
         
 2. Download Raspberry Pi desktop from RaspberryPi.org
 3. Create Virtual Box with debian raspberry pi desktop
