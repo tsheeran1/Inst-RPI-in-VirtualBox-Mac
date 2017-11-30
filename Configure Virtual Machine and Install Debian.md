@@ -34,4 +34,10 @@ Continue.
 
 ![Screen7](https://user-images.githubusercontent.com/26580126/33409018-51d6b378-d547-11e7-8205-3124820a304f.png)
 
+8. Now you should see a progress box like below as Virtual Box creates your virtual machine.
+
 ![Screen8](https://user-images.githubusercontent.com/26580126/33409062-77528460-d547-11e7-88ed-ecfe5a54a94a.png)
+
+And when the smoke clears, you should see a VirtualBox window like this:
+
+![Screen9](https://user-images.githubusercontent.com/26580126/33409179-00bd6cce-d548-11e7-8f31-8fa99f4ef14a.png)
