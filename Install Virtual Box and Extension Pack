@@ -1,5 +1,8 @@
-1. Install Virtual Box on OSX Sierra.  Here is a good youtube video on downloading and installing Virtual Box for OSX (ignore the part where he starts installing Windows 10 as we will be installing a different operating system):  https://www.youtube.com/watch?v=rNV5JmxtKP4 
-    1. Download VirualBox for OSX from here https://www.virtualbox.org/wiki/Downloads  (click on the "OSX Hosts" version)
+# Install Virtual Box on OSX Sierra.  
+
+Here is a good youtube video on downloading and installing Virtual Box for OSX (ignore the part where he starts installing Windows 10 as we will be installing a different operating system):  https://www.youtube.com/watch?v=rNV5JmxtKP4 
+
+1. Download VirualBox for OSX from here https://www.virtualbox.org/wiki/Downloads  (click on the "OSX Hosts" version)
     2. At the same time you should download the "VirtualBox 5.2.2 Oracle VM VirtualBox Extension Pack" which you can download from the same page. (Note: I assume that both VirtualBox and the Extension Pack have been downloaded to your iMac Downloads folder)
     3. This will download two files to your downloads folder
         1. a .DMG file which you will use to install VirtualBox
