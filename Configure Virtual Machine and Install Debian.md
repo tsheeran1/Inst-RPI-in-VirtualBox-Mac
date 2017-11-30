@@ -9,6 +9,9 @@ Same assumptions:  Downloads in ~/username/Downloads folder on iMac and you have
 
 ![Screen1](https://user-images.githubusercontent.com/26580126/33408691-d8fb3ee8-d545-11e7-8652-a250ed17de8e.png)
 
+2.  Click on the light blue "New" icon. You should see a dialog box like below.  In the "Name" field of the dialog box type "Debian" notice that the other fields autofill.
+
 ![Screen2](https://user-images.githubusercontent.com/26580126/33408794-45e7cb52-d546-11e7-844e-4324459d5e4f.png)
+
 
 ![Screen3](https://user-images.githubusercontent.com/26580126/33408842-8d4669b8-d546-11e7-9096-976a9bb4524b.png)
