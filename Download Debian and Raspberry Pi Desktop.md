@@ -14,7 +14,7 @@ Again, the assumption is that downloads go to ~/username/Downloads folder on iMa
   
   You should get a file that looks like `2017-06-22-rpd-x86-jessie.iso` in your Downloads folder
   
-  ##There.  Thats all for this step
+  ## There.  Thats all for this step
   
   Next we will configure a Virual Machine and Install the operating system
   
