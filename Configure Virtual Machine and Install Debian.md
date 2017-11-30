@@ -9,3 +9,4 @@ Same assumptions:  Downloads in ~/username/Downloads folder on iMac and you have
 
 ![Screen1](https://user-images.githubusercontent.com/26580126/33408691-d8fb3ee8-d545-11e7-8652-a250ed17de8e.png)
 
+![Screen2](https://user-images.githubusercontent.com/26580126/33408794-45e7cb52-d546-11e7-844e-4324459d5e4f.png)
