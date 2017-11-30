@@ -72,6 +72,10 @@ Yes, we want to install the bootl loader on the MBR of our virtual disk so the V
 
 Ta..Da.. Your very own Raspberry Pi desktop running on a VM on your iMac
 
+## But Wait...There's more...
 
+Before you can do useful things, like share files between your iMac and VM, or cut and paste, or drag and drop, you need to install something called VirtualBox Guest Additions (not to be confused with VirtualBox Extension Pack).  The Guest additions get installed into your Guest Operating System (Debian in this case).
+
+But that is another Chapter...
 
 
