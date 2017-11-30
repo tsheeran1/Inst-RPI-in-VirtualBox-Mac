@@ -5,5 +5,7 @@ In this step we will configure VirtualBox and install the operating system we do
 Same assumptions:  Downloads in ~/username/Downloads folder on iMac and you have "sudo" privs
 ## Steps
 
-1.  CLick on VirtualBox in your Applications Folder (where you installed it).  You should see a screen like this
+1.  Click on VirtualBox in your Applications Folder (where you installed it).  You should see a screen like this:
+
+    ![Empty Vbox](Empty VirtualBox Window.png)
 
