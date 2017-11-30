@@ -38,6 +38,12 @@ Continue.
 
 ![Screen8](https://user-images.githubusercontent.com/26580126/33409062-77528460-d547-11e7-88ed-ecfe5a54a94a.png)
 
-And when the smoke clears, you should see a VirtualBox window like this:
+And when the smoke clears, you should see a VirtualBox window like this showing your shiny new Debian VM:
 
 ![Screen9](https://user-images.githubusercontent.com/26580126/33409179-00bd6cce-d548-11e7-8f31-8fa99f4ef14a.png)
+
+### Do you feel accomplished?
+Yeah, well don't get too excited yet.  All you have is an empty VM.  In our next chapter we will actually install the operating system.
+
+Go have a beer.
+
