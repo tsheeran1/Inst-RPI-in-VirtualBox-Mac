@@ -43,7 +43,7 @@ And when the smoke clears, you should see a VirtualBox window like this showing 
 ![Screen9](https://user-images.githubusercontent.com/26580126/33409179-00bd6cce-d548-11e7-8f31-8fa99f4ef14a.png)
 
 ### Do you feel accomplished?
-Yeah, well don't get too excited yet.  All you have is an empty VM.  In our next chapter we will actually install the operating system.
+Yeah, well don't get too excited yet.  All you have is an empty VM.  In our next chapters we will download the operating system from RaspberryPi.org and then actually install the operating system.
 
 Go have a beer.
 
