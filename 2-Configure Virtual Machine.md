@@ -1,8 +1,18 @@
 # Configure Virtual Machine and install Debian and Raspberry Pi Desktop
 
-In this step we will configure VirtualBox so it is ready to install the operating system we downloaded Debian.org
+In this step we will configure VirtualBox so it is ready to install the operating system we downloaded either from Debian.org or from RaspberryPi.org
 
-Same assumptions:  Downloads in ~/username/Downloads folder on iMac and you have "sudo" privs
+This episode will create a Debian 64-bit Virtual Machine with 2GB RAM and 20GB Hard Disk, and will:  
+* Configure the VM to enable a shared clipboard between the host and VM systems  
+* Configure the VM with a Bridged network adapter and a Local-Host network adapter  
+* Configure the VM to access a host USB port  
+* Configure the VM to share a folder with the host  
+
+Assumptions:
+* You download files to your Mac's "Downloads" folder
+* You have admin privs on your Mac
+* You have 20GB (ideally more) free space on your Mac's startup disk. The VM will reserve this even when it is not running.
+
 ## Steps
 
 1.  Click on VirtualBox in your Applications Folder (where you installed it).  You should see a screen like this:
