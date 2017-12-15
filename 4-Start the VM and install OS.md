@@ -67,13 +67,26 @@ Do so.
   <li>The next window asks if you're really really sure you want to write the partitions to the disk.  You do.
   </ol></ol></ol>
 
-![DL11](https://user-images.githubusercontent.com/26580126/33412298-773a8412-d558-11e7-8eee-35ec95305c56.png)
+13. The installer will then indicate it is installing the base system.
 
-Now the system will install (this may be out of order with the next two screenshots. I can't remember)
+14. After the base system is installed the installer will ask if you want to use a mirror.  Assuming you have a decent internet connection, you do.
+
+16. The installer will ask if you have a proxy server it needs to deal with for the mirror.  I don't so I leave blank and continue.
+
+17. The installer asks if you want to install additional sofware from the mirror:
+![DL11](https://user-images.githubusercontent.com/26580126/34028601-366420f2-e132-11e7-91b5-f4c977e0569a.png)
+
+<ul><ul>
+  <li>Debian desktop environment, Xfce, print server and standard system utilities are already checked.
+  <li>I also checked SSH server and web server (not show in the above screenshot)
+  <li>Once you click "continue" the installation of the additional packages will take a few minutes.
+  </ul></ul>
+
+18. The installer will ask if you want to install the GRUB boot loader in the master boot record of your VM hard disk.  You do.
 
 ![DL12](https://user-images.githubusercontent.com/26580126/33412318-90d41d8e-d558-11e7-8177-0bc675de972e.png)
 
-Yes, we want to install the bootl loader on the MBR of our virtual disk so the VM will boot automatically from now on.  Click Continue
+19. It will then ask you to select the disk you want to install GRUB on.  Don't opt to manually enter.  There is only one. Select the option it presents you.
 
 ![DL13](https://user-images.githubusercontent.com/26580126/33412339-a27dccb0-d558-11e7-826f-528bc86b3818.png)
 
