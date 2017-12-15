@@ -81,18 +81,38 @@ Select the USB controller (Mine is USB 2.0)
 Next click on the icon with the green plus sign on the right side of the dialog box to add a USB device filter.  
 Select the device you want.  Mine is a Sigma Designs Z-Stick which is easy to identify.  I have not played with vanilla printer or scanner ports yet.
 
+### Configure a shared directory between VM and host  
+In case you want to move files back and forth.
 
+First, setup a directory on your host that will be shared with the VM.  I call mine DebHAShare.
 
+![Screen14](https://user-images.githubusercontent.com/26580126/34024302-5704f09a-e117-11e7-8000-7edad4b4245b.png)
 
+Back in VirualBox Settings, click on the "Shared Folders" icon.  You will see a screen like:
 
+![Screen15](https://user-images.githubusercontent.com/26580126/34024560-d3c94a1c-e118-11e7-96a1-f749d29fd0fa.png)  
 
+Click on the icon with the green plus sign on the right.  You will see this:
 
+![Screen16](https://user-images.githubusercontent.com/26580126/34024572-f0e32f6e-e118-11e7-9964-67d417768f48.png)  
 
+In the "Folder Path" select "other".  This will open a host Finder window where you can select the host shared folder you created.
 
+![Screen17](https://user-images.githubusercontent.com/26580126/34024716-b3dd7006-e119-11e7-9271-2325baf6c86d.png)  
 
+After selecting your host folder the "Shared Folders" dialog box will look like this:
+![Screen18](https://user-images.githubusercontent.com/26580126/34024640-4e2b1416-e119-11e7-9e61-321eca4c429a.png)  
+Folder Path will show the fully qualified host folder
+Folder Name contains the name that you will use as the device name to mount your shared folder in Debian.  Remember it.  
+Clicking Auto Mount will mount your shared folder when your Debian system boots in /media/<FolderName>, which in this case will be /media/DebHAShare.  
 
-### Do you feel accomplished?
-Yeah, well don't get too excited yet.  All you have is an empty VM.  In our next chapters we will download the operating system from RaspberryPi.org and then actually install the operating system.
+Click OK and you should see this:  
+![Screen19](https://user-images.githubusercontent.com/26580126/34024659-6b28c6d0-e119-11e7-82e5-f192a79858b0.png)  
+Click OK again and you should be ready to launch the VM and install Debian.  
 
-Go have a beer.
+## NOTE:  The Optional setups we just did will not all work in Debian until we install the VirtualBox User Additions for linux as part of the OS install
+
+That will be in our next episode.
+
+Go have a beer (assuming you haven't been drinking along with me already!)
 
