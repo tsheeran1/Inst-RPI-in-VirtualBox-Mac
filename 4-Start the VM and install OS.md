@@ -28,11 +28,20 @@ This version assumes we are doing a vanilla Debian install.  The process is simi
 
 5. Select "Graphical install" (you can experiment but then you're on your own)
 
-![DL5](https://user-images.githubusercontent.com/26580126/33412139-8f35b696-d557-11e7-91b0-f5fc74261f79.png)
+6. At this point the installer will ask you to select a series of options (I dont have screen shots for each):  
+* Language - I pick English
+* Location - I pick United States
+* Keyboard - I pick American English
 
-6. Select your keyboard (I'm using American English) and click "Continue".
+7. The system will then ask you to select your network controller.  My system only has one so its easy (sorry no screenshot here)
 
-7. The system will then take you through a series of disk partitioning steps.  Just follow along:
+8. Next you will be asked to name your system.  The installer suggests debian which is fine with me.  See below.
+
+![DL16](https://user-images.githubusercontent.com/26580126/34026934-73e3eea4-e127-11e7-9659-0cfe1e0c5cef.png)
+
+
+
+10. The system will then take you through a series of disk partitioning steps.  Just follow along:
 
 ![DL6](https://user-images.githubusercontent.com/26580126/33412190-de333dfe-d557-11e7-8ace-806de8f5e155.png)
 
