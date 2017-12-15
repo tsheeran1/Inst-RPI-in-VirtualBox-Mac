@@ -39,29 +39,34 @@ This version assumes we are doing a vanilla Debian install.  The process is simi
 
 ![DL16](https://user-images.githubusercontent.com/26580126/34026934-73e3eea4-e127-11e7-9659-0cfe1e0c5cef.png)
 
+9. Next you will be asked for your local domain.  Mine is .lan because I think thats what the router sets up.  
+Don't really know why but when I do a `hostname` on my Mac for any IP in my house they all comeback with systemname.lan.  
+Fill in yours.
 
+10. The system will ask you to set up a password for `root`.  
+Then ask you to set up a user and password. 
+Do so.
 
-10. The system will then take you through a series of disk partitioning steps.  Just follow along:
+11. The system will ask you to select a time zone.  I pick Eastern.  Pick yours.
 
-![DL6](https://user-images.githubusercontent.com/26580126/33412190-de333dfe-d557-11e7-8ace-806de8f5e155.png)
+12. The system will then take you through a series of disk partitioning steps.  Just follow along:
 
-We are using the entire disk because its easy and I am NOT a linux geek
+![DL6](https://user-images.githubusercontent.com/26580126/34027203-3416b458-e129-11e7-87f1-12f7e901ec8b.png)
+
+a. Select "Guided - use entire disk" because I am not a linux geek
 
 ![DL7](https://user-images.githubusercontent.com/26580126/33412200-eca41d36-d557-11e7-95da-dfc783bbbfc2.png)
 
-This is a scary window, but VirtualBox has already allocated this space from your free OSX disk space, so you will not be clobbering anything on your iMac.  Hit Continue.
+b. The next window asks you to select the disk you want.  For relative newbs there should be only one.  Pick it.  
+Note it has some scary language about erasing everything on the disk.  
+Remember this is the 20GB disk you set up in VirtualBox which I why you need the 20GB free space on your Host Mac.  
+It's not going to erase random files on your Mac
 
-![DL8](https://user-images.githubusercontent.com/26580126/33412206-fc411f50-d557-11e7-9ac2-8d34cc73eacf.png)
+c. The next window asks how you want to partition the disk.  
+Select the option to put all files in one partition because we (and by we I mean "I") are new users
 
-Put all files in one partition because we (and by we I mean "I") are new users
-
-![DL9](https://user-images.githubusercontent.com/26580126/33412221-1070faa4-d558-11e7-92a4-1bdcf297fba1.png)
-
-Yes, we REALLY want you to write the changes to disk.  Hit Continue.
-
-![DL10](https://user-images.githubusercontent.com/26580126/33412238-23d40320-d558-11e7-8ac1-19ded77c43a6.png)
-
-**YES, WE REALLY REALLY WANT THE CHANGES WRITTEN TO DISK **  Hit Continue.
+d. The next window asks if you want to finish and partition the disk.  You do.
+e. The next window asks if you're really really sure you want to write the partitions to the disk.  You do.
 
 ![DL11](https://user-images.githubusercontent.com/26580126/33412298-773a8412-d558-11e7-8eee-35ec95305c56.png)
 
