@@ -53,20 +53,15 @@ Do so.
 
 ![DL6](https://user-images.githubusercontent.com/26580126/34027203-3416b458-e129-11e7-87f1-12f7e901ec8b.png)
 
-a. Select "Guided - use entire disk" because I am not a linux geek
-
-![DL7](https://user-images.githubusercontent.com/26580126/33412200-eca41d36-d557-11e7-95da-dfc783bbbfc2.png)
-
-b. The next window asks you to select the disk you want.  For relative newbs there should be only one.  Pick it.  
+  1. Select "Guided - use entire disk" because I am not a linux geek
+  2. The next window asks you to select the disk you want.  For relative newbs there should be only one.  Pick it.  
 Note it has some scary language about erasing everything on the disk.  
 Remember this is the 20GB disk you set up in VirtualBox which I why you need the 20GB free space on your Host Mac.  
-It's not going to erase random files on your Mac
-
-c. The next window asks how you want to partition the disk.  
-Select the option to put all files in one partition because we (and by we I mean "I") are new users
-
-d. The next window asks if you want to finish and partition the disk.  You do.
-e. The next window asks if you're really really sure you want to write the partitions to the disk.  You do.
+It's not going to erase random files on your Mac  
+  3. The next window asks how you want to partition the disk.  
+Select the option to put all files in one partition because we (and by we I mean "I") are new users  
+  4. The next window asks if you want to finish and partition the disk.  You do.  
+  5. The next window asks if you're really really sure you want to write the partitions to the disk.  You do.
 
 ![DL11](https://user-images.githubusercontent.com/26580126/33412298-773a8412-d558-11e7-8eee-35ec95305c56.png)
 
