@@ -45,9 +45,7 @@ Usable:       true
 Why unusable: 
 ```
 ####  Congratulations. Don't you feel accomplished? (I sure as hell do!)
-In our next episodes I will cover:
-        
-2. Download Raspberry Pi desktop from RaspberryPi.org
-3. Create Virtual Box with debian raspberry pi desktop
-4. Make sure you have additions installed 
-5. Confirm that cut/paste and drag/drop work between Vbox and OSX
+
+Next we configure a Virtual Machine to Run Debian.  There are two options.  
+* Install vanilla Debian downloaded from Debian.org
+* Install a Raspberry version of Debian that will run on the AMD64 architecture.
