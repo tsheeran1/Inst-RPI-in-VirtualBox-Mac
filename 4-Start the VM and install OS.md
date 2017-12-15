@@ -84,21 +84,23 @@ Do so.
 
 18. The installer will ask if you want to install the GRUB boot loader in the master boot record of your VM hard disk.  You do.
 
-![DL12](https://user-images.githubusercontent.com/26580126/33412318-90d41d8e-d558-11e7-8177-0bc675de972e.png)
+![DL12](https://user-images.githubusercontent.com/26580126/34029310-d111ee60-e135-11e7-9b3b-75ccfa770033.png)
 
 19. It will then ask you to select the disk you want to install GRUB on.  Don't opt to manually enter.  There is only one. Select the option it presents you.
 
-![DL13](https://user-images.githubusercontent.com/26580126/33412339-a27dccb0-d558-11e7-826f-528bc86b3818.png)
+![DL13](https://user-images.githubusercontent.com/26580126/34029236-6c6012c6-e135-11e7-9cc7-f78116135618.png)
 
-...And lets install the boot loader where the wise installer suggests.  Hit Continue.
+20. At this point, the installer will tell you it is complete.  Hit continue.
 
-![DL14](https://user-images.githubusercontent.com/26580126/33412356-c0dcf078-d558-11e7-96da-d608376b6977.png)
+![DL14](https://user-images.githubusercontent.com/26580126/34029340-0c0c744a-e136-11e7-89e4-c7c35792bf97.png)
 
-...Hit continue here and...(drum roll please)
+21.  The operating system will install and launch the XFCE gui prompting you to login.  Enter the credentials you set up in step 10.
 
-![DL15](https://user-images.githubusercontent.com/26580126/33412369-d72887a2-d558-11e7-82c3-e0aa593ab899.png)
+![DL15](https://user-images.githubusercontent.com/26580126/34029432-9d901728-e136-11e7-94e1-3c9855376f07.png)
 
-Ta..Da.. Your very own Raspberry Pi desktop running on a VM on your iMac
+22.  The system logs you in.  Your first login will prompt you to select a blank panel or the default panel.  I pick default. (not shown on screenshot below.  And you are now logged into Debian v9.3 running in a VM on your Mac!!
+
+![DL16](https://user-images.githubusercontent.com/26580126/34029554-305f9740-e137-11e7-8ccf-25a0977a3ed5.png)
 
 ## But Wait...There's more...
 
