@@ -16,7 +16,7 @@ This version assumes we are doing a vanilla Debian install.  The process is simi
 
 2. Click on the folder icon with the green up arrow.  This will open your finder and let you select the .iso file you downloaded:
 
-![DL2](https://user-images.githubusercontent.com/26580126/33412074-4a69ac66-d557-11e7-95d2-e5edacefa12f.png)
+![DL2](https://user-images.githubusercontent.com/26580126/34025978-f2296e9e-e120-11e7-8c2b-2dcaa81b4812.png)
 
 3. Select the .iso file and click "Start"
 
