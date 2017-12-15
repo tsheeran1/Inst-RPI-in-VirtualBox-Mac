@@ -24,7 +24,7 @@ This version assumes we are doing a vanilla Debian install.  The process is simi
 
 4. The installer will start and you will see the following:
 
-![DL4](https://user-images.githubusercontent.com/26580126/33412119-7a878b16-d557-11e7-99bf-8b29125d8ae1.png)
+![DL4](https://user-images.githubusercontent.com/26580126/34026747-21cd3522-e126-11e7-98f7-4e30036ebbe8.png)
 
 5. Select "Graphical install" (you can experiment but then you're on your own)
 
