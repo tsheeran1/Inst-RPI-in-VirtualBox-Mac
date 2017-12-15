@@ -42,6 +42,16 @@ And when the smoke clears, you should see a VirtualBox window like this showing 
 
 ![Screen9](https://user-images.githubusercontent.com/26580126/33409179-00bd6cce-d548-11e7-8f31-8fa99f4ef14a.png)
 
+### Optional things you should probably do.  
+Your VM will work without this but you will probably want to use this
+
+#### Shared Clipboard
+This will let you cut and paste between your host and the VM
+
+
+
+
+
 ### Do you feel accomplished?
 Yeah, well don't get too excited yet.  All you have is an empty VM.  In our next chapters we will download the operating system from RaspberryPi.org and then actually install the operating system.
 
