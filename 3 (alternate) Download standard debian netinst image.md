@@ -9,6 +9,7 @@ Again, the assumption is that downloads go to ~/username/Downloads folder on iMa
   
   Download Debian linux netinst image from here:  
  ` https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-9.3.0-amd64-xfce-CD-1.iso.torrent`
+ 
  Note that this image include the xfce GUI. You can get the plain distribution that (I think) comes with gnome, but I like xfce and this is a quick way to get it
   
   You should get a file that looks like `debian-9.3.0-amd64-xfce-CD-1.iso` in your Downloads folder.  Remember this file for the next steps
