@@ -20,7 +20,7 @@ This version assumes we are doing a vanilla Debian install.  The process is simi
 
 3. Select the .iso file and click "Start"
 
-![DL3](https://user-images.githubusercontent.com/26580126/33412087-5ee2c15a-d557-11e7-9fc7-ac3046b8a2ec.png)
+![DL3](https://user-images.githubusercontent.com/26580126/34026689-c5c29722-e125-11e7-8db5-2ea4d806fa4c.png)
 
 4. The installer will start and you will see the following:
 
