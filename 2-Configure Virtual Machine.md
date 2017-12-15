@@ -46,7 +46,46 @@ And when the smoke clears, you should see a VirtualBox window like this showing 
 Your VM will work without this but you will probably want to use this
 
 #### Shared Clipboard
-This will let you cut and paste between your host and the VM
+This will let you cut and paste between your host and the VM.  
+Click on the Settings icon in the VirtualBox setup screen to display the settings dialog.  
+Click on the "Advanced" tab of "General" settings.  You will see a screen like this"
+
+![Screen10](https://user-images.githubusercontent.com/26580126/34023026-b5f14f9c-e110-11e7-9fd4-6c5252b0354b.png)
+
+Set the "Shared Clipboard" dropdown to Bidirectional.  
+Note:  I have not figured out how to get drag'n'drop to work so I leave it off.
+
+#### Create Network Adapters  
+This will configure your VM to use netword resources.  I configure two:  
+* a "Bridged" adapter which is (from what I can tell) a pass-through to the hosts network adapter (though I think it gets its own IP)  
+* a "Host Only" adapter which (again from what I can tell) is a network that runs between the VM and the host (not sure if it is seen externally)  
+
+While still in VirtualBox "Settings"  click on the "Network" icon.  You will see a screen like this:
+
+![Screen11](https://user-images.githubusercontent.com/26580126/34023046-c7f9ea6e-e110-11e7-9201-8ad2645511de.png)
+
+For "Adapter 1" Change the "attached to" dropdown to "Bridged Adapter"  (refer to above image)  
+Then select Adapter 2 and you see a screen like this:
+
+![Screen12](https://user-images.githubusercontent.com/26580126/34023056-d57f1754-e110-11e7-903e-cd0c83342f20.png)  
+Click the "Enable Network Adapter" checkbox  (refer to above image)  
+Set the "Attached to" pulldown to Host-only Adapter.  The name will auto populate as vboxnet0.  Leave it.
+
+#### Enable your VM to use your host USB ports  
+This is useful for example if you have a z-wave usb stick that you want to be able to access from your vm.  Thats how I set it up, but in theory this should work for any USB device  
+While sill in VirtualBox "Settings" click on the "Ports" icon  
+You will see a screen like this:  
+![Screen13](https://user-images.githubusercontent.com/26580126/34023081-edfb4fdc-e110-11e7-9147-edfef4800e16.png)  
+Make sure the "Enable USB Controller" check box is checked  
+Select the USB controller (Mine is USB 2.0)  
+Next click on the icon with the green plus sign on the right side of the dialog box to add a USB device filter.  
+Select the device you want.  Mine is a Sigma Designs Z-Stick which is easy to identify.  I have not played with vanilla printer or scanner ports yet.
+
+
+
+
+
+
 
 
 
