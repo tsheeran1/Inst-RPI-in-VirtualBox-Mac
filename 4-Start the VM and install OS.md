@@ -4,7 +4,7 @@ This version assumes we are doing a vanilla Debian install.  The process is simi
 ## Recap - At this point you should have:
 
 * Installed VirtualBox on your Host Mac
-* `debian-9.3.0-amd64-xfce-CD-1.iso` that you downloaded from RaspberryPi.org sitting in your Downloads folder
+* `debian-9.3.0-amd64-xfce-CD-1.iso` that you downloaded from Debian.org sitting in your Downloads folder
 * A Debian VM configured in VirtualBox (ideally following the previous instructions in this repository) so you have a window that looks like this:
 
 ![Screen9](https://user-images.githubusercontent.com/26580126/33409179-00bd6cce-d548-11e7-8f31-8fa99f4ef14a.png)
@@ -58,7 +58,7 @@ Do so.
   <li>The next window asks you to select the disk you want.  For relative newbs there should be only one.  Pick it.
     <ul><ul>
       <li>  Note it has some scary language about erasing everything on the disk.</li>
-      <li>  Remember this is the 20GB disk you set up in VirtualBox which I why you need the 20GB free space on your Host Mac.</li>
+      <li>  Remember this is the 20GB disk you set up in VirtualBox which is why you need the 20GB free space on your Host Mac.</li>
       <li>  It's not going to erase random files on your Mac</li>
       </ul></ul>
   <li>The next window asks how you want to partition the disk.  
