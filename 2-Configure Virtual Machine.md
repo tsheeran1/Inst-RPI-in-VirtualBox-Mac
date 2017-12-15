@@ -66,20 +66,13 @@ Set the "Shared Clipboard" dropdown to Bidirectional.
 Note:  I have not figured out how to get drag'n'drop to work so I leave it off.
 
 #### Create Network Adapters  
-This will configure your VM to use netword resources.  I configure two:  
-* a "Bridged" adapter which is (from what I can tell) a pass-through to the hosts network adapter (though I think it gets its own IP)  
-* a "Host Only" adapter which (again from what I can tell) is a network that runs between the VM and the host (not sure if it is seen externally)  
+This will configure your VM to use netword resources.
 
 While still in VirtualBox "Settings"  click on the "Network" icon.  You will see a screen like this:
 
 ![Screen11](https://user-images.githubusercontent.com/26580126/34023046-c7f9ea6e-e110-11e7-9201-8ad2645511de.png)
 
-For "Adapter 1" Change the "attached to" dropdown to "Bridged Adapter"  (refer to above image)  
-Then select Adapter 2 and you see a screen like this:
-
-![Screen12](https://user-images.githubusercontent.com/26580126/34023056-d57f1754-e110-11e7-903e-cd0c83342f20.png)  
-Click the "Enable Network Adapter" checkbox  (refer to above image)  
-Set the "Attached to" pulldown to Host-only Adapter.  The name will auto populate as vboxnet0.  Leave it.
+Update:  Configure Network Adapter 1 "attached" dropdown to "NAT".  Do Not configure Adapter 2.  The screenshot is incorrect
 
 #### Enable your VM to use your host USB ports  
 This is useful for example if you have a z-wave usb stick that you want to be able to access from your vm.  Thats how I set it up, but in theory this should work for any USB device  
