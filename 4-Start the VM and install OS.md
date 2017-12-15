@@ -53,7 +53,7 @@ Do so.
 
 ![DL6](https://user-images.githubusercontent.com/26580126/34027203-3416b458-e129-11e7-87f1-12f7e901ec8b.png)
 
-<ol type="a">
+<ol><ol><ol>
   <li>Select "Guided - use entire disk" because I am not a linux geek
   <li>The next window asks you to select the disk you want.  For relative newbs there should be only one.  Pick it.
     <ul><ul>
@@ -65,6 +65,7 @@ Do so.
   Select the option to put all files in one partition because we (and by we I mean "I") are new users
   <li>The next window asks if you want to finish and partition the disk.  You do.
   <li>The next window asks if you're really really sure you want to write the partitions to the disk.  You do.
+  </ol></ol></ol>
 
 ![DL11](https://user-images.githubusercontent.com/26580126/33412298-773a8412-d558-11e7-8eee-35ec95305c56.png)
 
