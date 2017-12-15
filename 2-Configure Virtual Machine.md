@@ -1,6 +1,6 @@
 # Configure Virtual Machine and install Debian and Raspberry Pi Desktop
 
-In this step we will configure VirtualBox and install the operating system we downloaded from Rasperrypi.org
+In this step we will configure VirtualBox so it is ready to install the operating system we downloaded Debian.org
 
 Same assumptions:  Downloads in ~/username/Downloads folder on iMac and you have "sudo" privs
 ## Steps
