@@ -54,7 +54,14 @@ At this point if you ls your Downloads folder you should see:
 $ ls /home/user-name/Downloads
 debian-9.3.0-amd64-xfce-CD-1.iso  VBoxGuestAdditions_5.2.2.iso
 ```
-<li>Now mount the Debian netinst iso on <code>/media/cdrom</code>
+  <li>Now mount the Debian netinst iso on <code>/media/cdrom</code>  
+
+<code>$ sudo mount -t auto /home/user-name/Downloads/debian-9.3.0-amd64-xfce-CD-1.iso /media/cdrom</code>  
+
+A successful response looks like:  
+<code>mount: /dev/loop0 is write-protected, mounting read-only
+</code>
+
 
 
 
@@ -65,7 +72,7 @@ debian-9.3.0-amd64-xfce-CD-1.iso  VBoxGuestAdditions_5.2.2.iso
 
 Now mount the Debian netinst ISO on /media/cdrom:
 
-`sudo mount -t auto /home/user-name/Downloads/debian-9.3.0-amd64-xfce-CD-1.iso /media/cdrom`
+``
 
 Confirm that it is successful  
 `sudo ls /media/cdrom`  
