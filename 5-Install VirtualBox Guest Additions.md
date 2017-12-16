@@ -1,12 +1,35 @@
 ## Install VirtualBox Guest Additions for Linux  
 
-In order to make your guest operating system play more nicely with your host on things like:  
+We need to install VirtualBox Guest Additions for Linux onto your **Guest OS (ie Debian)** in order to make your guest operating system play more nicely with your host on things like:  
 <ul>
   <li>Shared clipboard so you can cut and paste between host and guest
   <li>Shared folder so you can easily move files between host and guest
   <li>Full sized screen so you can size your guest desktop to use as much or as little screen real estate as you like
   <li>Maybe required to allow your guest to use the configured usb ports (not sure -- they might work without this)
 </ul>
+
+All of the work in this document takes place in your **Guest/Debian** OS running on the VM.  
+
+This part took me a while to get all the steps correct.  
+There is lots of "help" out on the interwebs.  
+Most of it is well intended.  
+Some is dated.  Some has different context, which is not always obvious...  
+Anyway you get the point.
+
+Here is what worked for me in a nutshell.  I will show details...
+<ol>
+  <li>Get the debian 9.3 netinst .iso file that you used to install Debian in the vm <strong>onto your guest filesystem </strong>  
+  Remember this was downloaded to your <strong>Host</strong> file system.  We need it on the guest.
+  <li>Get the VirtualBox Guest Additions also onto your guest file system.
+  <ul><ul><strong>Note</strong> The VirtualBox command bar has a "Devices" tab that contains an entry to "install VirtualBox Guest Additions CD".  I could never get that to work properly.
+  </ul></ul>
+  <li>Mount the debian iso file to your linux cdrom
+  <li>install modules to rebuild the kernel.
+  <li>prepare to rebuild the kernel
+  <li>Unmount the debian iso file and mount the Guest Additions iso file to cdrom
+  <li>Run the Guest Additions install script
+</ol>
+
 
 Download the Debian netinst ISO file to your linux Downloads folder.
 This is the same one you downloaded to your Mac and used to install Debian on the Virtual Box
