@@ -39,19 +39,29 @@ Here is what worked for me in a nutshell.  I will show details...
       <li>This command will download and put it in your /home/user-name/Downloads folder (where "user-name" is your linux user name.)  
 
 ```bash
-wget -P /home/user-name/Downloads "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-xfce-CD-1.iso"
+$ wget -P /home/user-name/Downloads "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-xfce-CD-1.iso"
 ```
    </ul></ul>
+    
+  <li>Download the Virtual Box Guest Additions ISO file to your Downloads folder using a similar wget command  
+  
+```bash
+$ wget -P /home/user-name/Downloads "http://download.virtualbox.org/virtualbox/5.2.2/VBoxGuestAdditions_5.2.2.iso"
+```
+At this point if you ls your Downloads folder you should see:
+
+```bash
+$ ls /home/user-name/Downloads
+debian-9.3.0-amd64-xfce-CD-1.iso  VBoxGuestAdditions_5.2.2.iso
+```
+<li>Now mount the Debian netinst iso on <code>/media/cdrom</code>
+
+
 
 </ol>
 
 
 
-Next Download the Linux Guest additions iso
-
- `wget -P /home/user-name/Downloads "http://download.virtualbox.org/virtualbox/5.2.2/VBoxGuestAdditions_5.2.2.iso"`
-
-At this point if you do `ls /home/user-name/Downloads` you should see
 
 Now mount the Debian netinst ISO on /media/cdrom:
 
