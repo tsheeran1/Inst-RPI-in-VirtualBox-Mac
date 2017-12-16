@@ -5,6 +5,8 @@ In order to make your guest operating system play more nicely with your host on 
   <li>Shared clipboard so you can cut and paste between host and guest
   <li>Shared folder so you can easily move files between host and guest
   <li>Full sized screen so you can size your guest desktop to use as much or as little screen real estate as you like
+  <li>Maybe required to allow your guest to use the configured usb ports (not sure -- they might work without this)
+</ul>
 
 Download the Debian netinst ISO file to your linux Downloads folder.
 This is the same one you downloaded to your Mac and used to install Debian on the Virtual Box
