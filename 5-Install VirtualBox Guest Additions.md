@@ -68,7 +68,11 @@ A successful response looks like:
     <pre><code>
     $ sudo apt-get update  
     $ sudo apt-get upgrade  </code></pre>
-    <li>
+    <li>Next install software to build kernel modules, and prepare to build kernel modules
+    <pre><code>
+    $ sudo apt-get install build-essential module-assistant
+    $ sudo m-a prepare</code></pre>
+    
 
 
 </ol></ol>
