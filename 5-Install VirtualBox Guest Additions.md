@@ -64,11 +64,10 @@ A successful response looks like:
 
   <li>Now we have to prepare the system to build kernel modules
   <ol type="a"><ol type="a">
-    <li> First make sure everything us up to date
+    <li> First make sure everything us up to date 
     <pre><code>
     $ sudo apt-get update  
-    $ sudo apt-get upgrade  
-    </code></pre>
+    $ sudo apt-get upgrade  </code></pre>
     <li>
 
 
