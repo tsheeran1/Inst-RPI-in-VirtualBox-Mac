@@ -17,7 +17,7 @@ Some is dated.  Some has different context, which is not always obvious...
 Anyway you get the point.
 
 Here is what worked for me in a nutshell.  I will show details...
-<ol>
+<ol type="i">
   <li>Get the debian 9.3 netinst .iso file that you used to install Debian in the vm <strong>onto your guest filesystem </strong>  
   Remember this was downloaded to your <strong>Host</strong> file system.  We need it on the guest.
   <li>Get the VirtualBox Guest Additions also onto your guest file system.
@@ -30,17 +30,26 @@ Here is what worked for me in a nutshell.  I will show details...
   <li>Run the Guest Additions install script
 </ol>
 
+### Steps
 
-Download the Debian netinst ISO file to your linux Downloads folder.
-This is the same one you downloaded to your Mac and used to install Debian on the Virtual Box
-But we will need to mount on Linux as well and shared folders don't work yet
-Open your browser on the guest machine and get the iso file from `https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-xfce-CD-1.iso`
-(probably fancier ways to do this with the CL but this is what I know)
-click the save file which will save it to your /home/username/Downloads folder on linux
+<ol>
+  <li>Download the Debian netinst ISO file to your linux Downloads folder.
+    <ul><ul>
+      <li>This is the same one you used on your host Mac to install Debian.  We now need it on the linux file system. 
+      <li>This command will download and put it in your /home/user-name/Downloads folder (where "user-name" is your linux user name.)  
+
+```bash
+wget -P /home/user-name/Downloads "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.3.0-amd64-xfce-CD-1.iso"
+```
+   </ul></ul>
+
+</ol>
+
+
 
 Next Download the Linux Guest additions iso
 
-From here `http://download.virtualbox.org/virtualbox/5.2.2/VBoxGuestAdditions_5.2.2.iso`
+ `wget -P /home/user-name/Downloads "http://download.virtualbox.org/virtualbox/5.2.2/VBoxGuestAdditions_5.2.2.iso"`
 
 At this point if you do `ls /home/user-name/Downloads` you should see
 
@@ -66,7 +75,7 @@ Now we need the Guest additions iso.  So unmount /media/cdrom
 Check success by `sudo ls /media/cdrom/`  Should be empty  
 
 Mount the guest addisions ISO   
-`sudo mount -t auto /home/user-name/Downloads/VBoxGuestAdditions_5.2.2.iso`  
+`sudo mount -t auto /home/user-name/Downloads/VBoxGuestAdditions_5.2.2.iso /media/cdrom`  
 
 `sudo sh /media/cdrom/VBoxLinuxAdditions.run`  
 
