@@ -17,7 +17,8 @@
   
   ## There.  Thats all for this step
   
-  Next we will configure a Virual Machine and Install the operating system
+  Next we will install Debian in the previously configured virtual machine.  
+  After that we will install Guest Additions
   
   The fun has only started.
  
