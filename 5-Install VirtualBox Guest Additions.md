@@ -59,9 +59,20 @@ debian-9.3.0-amd64-xfce-CD-1.iso  VBoxGuestAdditions_5.2.2.iso
 <code>$ sudo mount -t auto /home/user-name/Downloads/debian-9.3.0-amd64-xfce-CD-1.iso /media/cdrom</code>  
 
 A successful response looks like:  
-<code>mount: /dev/loop0 is write-protected, mounting read-only
-</code>
+<samp>mount: /dev/loop0 is write-protected, mounting read-only
+</samp>
 
+  <li>Now we have to prepare the system to build kernel modules
+  <ol type="a"><ol type="a">
+    <li> First make sure everything us up to date
+    <pre><code>
+    $ sudo apt-get update  
+    $ sudo apt-get upgrade  
+    </code></pre>
+    <li>
+
+
+</ol></ol>
 
 
 
@@ -70,7 +81,7 @@ A successful response looks like:
 
 
 
-Now mount the Debian netinst ISO on /media/cdrom:
+
 
 ``
 
