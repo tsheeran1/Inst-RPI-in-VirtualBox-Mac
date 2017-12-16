@@ -4,7 +4,7 @@ In this step we will configure VirtualBox so it is ready to install the operatin
 
 This episode will create a Debian 64-bit Virtual Machine with 2GB RAM and 20GB Hard Disk, and will:  
 * Configure the VM to enable a shared clipboard between the host and VM systems  
-* Configure the VM with a Bridged network adapter and a Local-Host network adapter  
+* Configure the VM with a Bridged network adapter that will allow the guest OS to have its own IP on your hosts network (as a peer)
 * Configure the VM to access a host USB port  
 * Configure the VM to share a folder with the host  
 
@@ -72,7 +72,9 @@ While still in VirtualBox "Settings"  click on the "Network" icon.  You will see
 
 ![Screen11](https://user-images.githubusercontent.com/26580126/34023046-c7f9ea6e-e110-11e7-9201-8ad2645511de.png)
 
-Update:  Configure Network Adapter 1 "attached" dropdown to "NAT".  Do Not configure Adapter 2.  The screenshot is incorrect
+Configure Network Adapter 1 "attached" dropdown to "Bridged Adapter".  
+***Optionally*** you can click into the "Advanced" section of the Adapter config and choose an alternate adapter type.  
+I picked the PCnet-FAST III adapter, but the default one should work too.
 
 #### Enable your VM to use your host USB ports  
 This is useful for example if you have a z-wave usb stick that you want to be able to access from your vm.  Thats how I set it up, but in theory this should work for any USB device  
@@ -113,9 +115,11 @@ Click OK and you should see this:
 ![Screen19](https://user-images.githubusercontent.com/26580126/34024659-6b28c6d0-e119-11e7-82e5-f192a79858b0.png)  
 Click OK again and you should be ready to launch the VM and install Debian.  
 
-## NOTE:  The Optional setups we just did will not all work in Debian until we install the VirtualBox User Additions for linux as part of the OS install
+### NOTE:  The Optional setups we just did will not all work in Debian until we install the VirtualBox User Additions for linux as part of the OS install
 
-That will be in our next episode.
+But first we have to install Debian into our new VM.
+That is our next episode.
+After that we will install guest additions
 
 Go have a beer (assuming you haven't been drinking along with me already!)
 
