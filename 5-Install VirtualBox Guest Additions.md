@@ -11,10 +11,13 @@ We need to install VirtualBox Guest Additions for Linux onto your **Guest OS (ie
 All of the work in this document takes place in your **Guest/Debian** OS running on the VM.  
 
 This part took me a while to get all the steps correct.  
-There is lots of "help" out on the interwebs.  
-Most of it is well intended.  
-Some is dated.  Some has different context, which is not always obvious...  
-Anyway you get the point.
+<ul>
+  <li>There is lots of "help" out on the interwebs.  
+  <li>Most of it is well intended.  
+  <li>Some is dated.  Some has different context, which is not always obvious...  
+  <li>Anyway you get the point.
+</ul>
+
 
 
 Here is what worked for me in a nutshell.  I will show details...
