@@ -32,6 +32,8 @@ Here is what worked for me in a nutshell.  I will show details...
 
 ### Steps
 
+<strong><em>IMPORTANT!!!</em></strong>   When you see references to <code>/user-name/</code> below, do not use that literally unless you happened to have created a linux user called "user-name".  Use the user name you created instead.
+
 <ol>
   <li>Download the Debian netinst ISO file to your linux Downloads folder.
     <ul><ul>
@@ -72,44 +74,14 @@ A successful response looks like:
     <pre><code>
     $ sudo apt-get install build-essential module-assistant
     $ sudo m-a prepare</code></pre>
-    
-
-
-</ol></ol>
+    <li>Next we install the Guest additions
+    <pre><code>
+    $ sudo sh media/cdrom/VBoxLinuxAdditions.run </code></pre>
+  </ol></ol>
 
 
 
 </ol>
-
-
-
-
-
-
-``
-
-Confirm that it is successful  
-`sudo ls /media/cdrom`  
-<fill in with copy paste>
-
-### Next part is with props to linuxbabe 
-
-`sudo apt-get update`
-`sudo apt-get upgrade`  
-Install required packages for building kernel modules (this step seems to need your debian netinst mounted in the cdrom)
-`sudo apt-get install build-essential module-assistant`  
-Prepare system for building kernel module  
-`sudo m-a prepare`  
-Should see `Done!`  
-Now we need the Guest additions iso.  So unmount /media/cdrom
-`sudo umount /media/cdrom/`
-Check success by `sudo ls /media/cdrom/`  Should be empty  
-
-Mount the guest addisions ISO   
-`sudo mount -t auto /home/user-name/Downloads/VBoxGuestAdditions_5.2.2.iso /media/cdrom`  
-
-`sudo sh /media/cdrom/VBoxLinuxAdditions.run`  
-
 Success looks like:  
 `VirtualBox Guest Additions: Starting`
 
