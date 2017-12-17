@@ -16,6 +16,7 @@ Most of it is well intended.
 Some is dated.  Some has different context, which is not always obvious...  
 Anyway you get the point.
 
+
 Here is what worked for me in a nutshell.  I will show details...
 <ol type="i">
   <li>Get the debian 9.3 netinst .iso file that you used to install Debian in the vm <strong>onto your guest filesystem </strong>  
@@ -83,7 +84,15 @@ A successful response looks like:
 
 </ol>
 Success looks like:  
-`VirtualBox Guest Additions: Starting`
+<pre><samp>
+Verifying archive integrity... All good.
+Uncompressing VirtualBox 5.2.2 Guest Additions for Linux........
+VirtualBox Guest Additions installer
+Copying additional installer modules ...
+Installing additional modules ...
+VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel modules.
+VirtualBox Guest Additions: Starting.</samp></pre>
+
 
 Now Reboot your guest
 
