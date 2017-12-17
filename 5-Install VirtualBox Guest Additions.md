@@ -17,9 +17,6 @@ This part took me a while to get all the steps correct.
   <li>Some is dated.  Some has different context, which is not always obvious...  
   <li>Anyway you get the point.
 </ul>
-
-
-
 Here is what worked for me in a nutshell.  I will show details...
 <ol type="i">
   <li>Get the debian 9.3 netinst .iso file that you used to install Debian in the vm <strong>onto your guest filesystem </strong>  
@@ -82,9 +79,6 @@ A successful response looks like:
     <pre><code>
     $ sudo sh media/cdrom/VBoxLinuxAdditions.run </code></pre>
   </ol></ol>
-
-
-
 </ol>
 Success looks like:  
 <pre><samp>
@@ -96,7 +90,12 @@ Installing additional modules ...
 VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel modules.
 VirtualBox Guest Additions: Starting.</samp></pre>
 
-
 Now Reboot your guest
+<code>$ sudo reboot</code>
 
-
+Once you have rebooted:
+<ul>
+<li>You should be able to resize your GUI to any part of the screen (slight delay between dragging the corner and the GUI resizing.  
+<li>Cut and Paste between host and guest (note, you need to use ctrl-shift-c to copy and ctrl-shift-v to paste on the guest)
+<li>Confirm you can see your shared folder (from the host) in <code>/media/sf_"your-shared-folder-name"
+<ul>
