@@ -6,6 +6,7 @@ Run this to run the docker container for home-assistant
 homeassistant/home-assistant
 </code></pre>
 
+You need to stop the home-assistant container and then start the ozwcp container.  Apparently they cannot run at the same time (perhaps because they both are accessing the same zwcfg_xxxxxxxxxx.xml file
 
 Run this to run the docker container for ozwcp
 
