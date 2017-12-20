@@ -1,8 +1,8 @@
 
 Run this to run the docker container for home-assistant
 
-<pre><code>$ sudo docker run -d --name home-assistant -u 0 -p 8123:8123 --device /dev/ttyACM0:/dev/zwave \  
-> -v /home/tom/haconfig:/config -v /etc/localtime:/etc/localtime:ro \  
+<pre><code>$ sudo docker run -d --name home-assistant --device /dev/ttyACM0:/dev/zwave \  
+> -v /home/tom/haconfig:/config -v /etc/localtime:/etc/localtime:ro --net host \  
 > homeassistant/home-assistant
 </code></pre>
 
